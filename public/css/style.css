@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+@font-face {
+    font-family: sky;
+    src: url(../css/fonts/sky.ttf);
+}
+@font-face {
+    font-family: cocon;
+    src: url(../css/fonts/cocon-next-arabic.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'sky', Tahoma;
+}
+*{
+    font-family: 'Tajawal',Tahoma;
+}
+p{
+
+    font-family: 'cocon', Tahoma;
+}
+
+body,html{
+    background-color: #191919;
+    color: #fff;
+    height: 100%;
+    overflow-x: hidden
+    
+}
+.card{
+    background-color: #3d3d3d;
+}
+select.form-control:not([size]):not([multiple]){
+    background:#1e1e1e ;
+    color: #fff;
+}
+
+h1{
+    color: #fff
+}
+main{
+    padding-top: 30px;
+}
+
+.headimg h1{
+    font-size: 50px;
+    text-align: center;
+    position: reltive;
+    top: 0;
+    left:0;
+    color: #fff;
+    z-index: 2;
+}
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/drlypiq12/image/upload/v1532596174/book-chair-chat-711009.jpg");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overly{
+    height: 350px;
+    background: rgb(0, 0, 0) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: .7
+}
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text h1{
+    font-size: 50px
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    color: #D80032;
+    -webkit-transition: color 0.35s, -webkit-transform 0.35s;
+
+}  
+.img-thumbnail{
+    background-color: #323638;
+    border: 1px solid #2a2d30
+}
+
+a{
+    text-decoration: none;
+    color: #fff
+}
+.info h1{
+    color: black;
+   
+}
+.info{
+    padding: 10px 10px ;
+    text-align: center;
+
+}
+
+.info ul{
+    list-style: none;
+    text-align: center;
+}
+.profile{
+    padding-top: 50px;
+}
+.user-img{
+    text-align: center
+}
+.user-img img{
+    border-radius: 100px;
+}
+.profile h2{
+    padding: 20px 20px;
+}
+.list-group-item{
+background-color: #3e3d3d82;
+color: #fff
+}
+.book-info{
+    list-style: none;
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+
+
+}
+
+.cat-hover:hover{
+    background: #D80032;
+    padding-right: 10px;
+    -webkit-transition: padding .4s ease-in-out; /* Safari 3.1 to 6.0 */
+}
+.form-control{
+    color: #000000;
+    background-color: #fff;
+}
+a:hover{
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+}
+.smart img{
+height: 220px;
+}
+.footer{
+    margin-top: 10px;
+    background: #16324F;
+    height: 28px;
+    text-align: center
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+.btn-success{
+   background-color:  #13293D;
+   border-color: #13293D
+}
+.list-group-item,nav,nav .form-control{
+    background-color: #1e1e1e;
+    border: 1px solid #101010;
+border-radius: 5px;
+}
+.navbar-toggler{
+    border: 1px solid #fff
+}
+.fa-bars{
+    color: #fff
+}
+a:hover{
+color: #b3acac
+}
+
+.bsearch input{
+    width: 900px;
+    height: 50px;
+}
+.form-inline .form-control{
+    border: 1px solid #13293D;
+    background: #ddd;
+
+}
+.slider-w{
+margin: 10px 10px;
+}
+.btn{
+    margin-top: 3px;
+}
+.up-btn{
+    background: #7b8182;
+    border-color: #7b8182;
+}
+footer{
+    background:#161616;
+    height: auto;
+    color: #d3d2d2;
+    text-align: right;
+    margin-top: 5%;
+    padding: 15px 15px;
+    border-top: 1px solid #D80032;
+}
+.copy p {
+    text-align: left;
+    color: #7b8182;
+    font-size: 15px;
+    margin: 0;
+}
+.title-line{
+    color: #D80032;
+    font-weight: 800;
+    font-size: 40px
+}
+.show-all{
+    direction: rtl;
+    text-align: center;
+    background:#D80032;
+    padding: 0 2px 0 2px;
+    border: 1px solid #D80032;
+    border-radius: 4px;
+}
+.see-all span:hover{
+    padding-left: 10px;
+    -webkit-transition: padding .4s ease-in-out; /* Safari 3.1 to 6.0 */
+}
+.see-all a:hover{
+color: #fff;
+}
+.see-all span{
+    float: left;
+}
+
+hr {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #d80032;
+}
+h3{
+    margin-top:15px;
+}
+.slider-title{
+margin-bottom: 4%;
+}
+
+.book-img {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .book-face:hover .book-img {
+    opacity: 0.3;
+  }
+  
+  .book-face:hover .middle {
+    opacity: 1;
+  }
+  
+  .book-title {
+    opacity: .7;
+    font-size: 16px;
+  }
+.btn-danger{
+    background:#d80032;
+    border-color: #d80032;
+}

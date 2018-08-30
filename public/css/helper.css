@@ -1,0 +1,17 @@
+.hero-image {
+    background-image: url("https://res.cloudinary.com/drlypiq12/image/upload/v1531447046/lilly-rum-303215-unsplash_1.jpg");
+
+}
+.cat-image {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/drlypiq12/image/upload/v1531447842/clem-onojeghuo-173081-unsplash.jpg");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
